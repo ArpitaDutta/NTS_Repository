@@ -1,0 +1,31 @@
+This folder contains ten C programs, their test cases and mutants.
+We have tried to keep the mutations as same as they are kept in the SIR repository[1].
+Test cases are generated using concolic testing[2, 5] tool CREST[3].
+We have used DFS (Depth First Search) strategy to generate the test cases.
+CREST tool is download from [4].
+
+======================================================================================
+S.no.		Program Name 		Versions		Number of Test Cases
+1. 		adpcm.c			8			1600
+2.		cfg_test.c		25			55
+3. 		elevator.c		8			1200
+4. 		merge2BSTree		8			197
+5. 		nextDate1		14			378
+6.		nsichneu		12			632
+7.		Problem1		24			3906
+8. 		Problem2		10			6050
+9.		Problem3		5			12223
+10.		quick_sort		6			128
+======================================================================================
+ 
+In each of the faulty version, single fault is seeded.
+
+
+
+
+References:
+[1] https://sir.csc.ncsu.edu/content/sir.php
+[2] Sen, K. and Agha, G., 2006, August. CUTE and jCUTE: Concolic unit testing and explicit path model-checking tools. In International Conference on Computer Aided Verification (pp. 419-423). Springer, Berlin, Heidelberg.
+[3] http://www.burn.im/crest/
+[4] https://github.com/jburnim/crest
+[5] Sen, K., 2007, November. Concolic testing. In Proceedings of the twenty-second IEEE/ACM international conference on Automated software engineering (pp. 571-572). ACM.
